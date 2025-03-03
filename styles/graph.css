@@ -1,0 +1,80 @@
+.bg-grey {
+  background-color: #cecece;
+  padding: 2.5rem !important;
+  margin: 2.5rem;
+  border-radius: 10px;
+}
+
+.customgraph {
+    display:flex;
+    width:100%;
+    
+  }
+  .customgraph-brick{
+    position: relative;
+    height: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .customgraph-brick.brick-0 {
+    background-color: red;
+  }
+  .customgraph-brick.brick-1 {
+    background-color: orange;
+  }
+  .customgraph-brick.brick-2 {
+    background-color: brown;
+  }
+  .customgraph-brick.brick-3 {
+    background-color: yellowgreen;
+  }
+  .customgraph-brick.brick-4 {
+    background-color: green;
+  }
+  .alert {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+  }
+
+  .customgraph-legende {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+  }
+  .customgraph-legende-single {
+    display:flex;
+    width:100%;
+    min-width: 280px;
+  }
+  .customgraph-legende-single .customgraph-brick {
+    height: 20px;
+    padding: 10px 20px;
+    margin: unset;
+    line-height: 0;
+    width: 280px;
+    margin-bottom: 10px;
+  }
+
+
+
+  .brick-overlay{
+    position: absolute;
+    background-color: rgba(255,255,255,0.95);
+    padding: 5px;
+    border-radius: 0px;
+    bottom:10px;
+    width: 90%;
+    opacity: 0;
+    transition: all .3s;
+    font-size: 14px;
+    left: 2%;
+    color: #000;
+    max-width: 290px;
+  }
+  
